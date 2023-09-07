@@ -3,20 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API", "API\API.csproj", "{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2EFBD40-9CE9-47AB-803F-F04C129B1ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70803FD0-3B2E-4BDE-BD9C-743C7D452489}
 	EndGlobalSection
 EndGlobal
